@@ -1,0 +1,13 @@
+[package]
+name = "pt_commit_tool"
+version = "0.1.0"
+authors = ["jiangfb <jayphbee@163.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+git2 = "0.13"
+clap = "2.33.1"
+walkdir = "2.3.1"
+anyhow = "1.0.32"
